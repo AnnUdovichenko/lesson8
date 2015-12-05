@@ -1,0 +1,312 @@
+ body {
+	 font-family: OpenSans;
+	 
+}
+
+.container{
+	overflow:hidden;
+	width:1174;
+	margin: 0 auto;
+}
+ .name{
+	 text-align:center;
+	 padding-top:64px;
+	 padding-bottom:38px;
+ }
+ .name h2{
+	 
+	 font-size: 20px;
+	 text-transform: uppercase;
+	 padding-bottom:38px;
+ }
+ .name p{
+	 margin: 0 auto;
+	 width :40%;
+	 font-size: 14px;
+	 color: #a8a8a8;
+	 
+ }
+ .button{
+	 margin: 0 auto;
+	 margin-top: 40px;
+     margin-bottom:100px ;	
+	 width: 20%;
+	 border: 1px solid #39c9da; 
+	 background-color: #39c9da;
+	 padding:20px 20px;
+	 color: white;
+	 text-align:center;
+ }
+
+ /*--------------------- Header --------------------*/ 
+ header{
+	 background-image: url(../image/head.jpg); 
+	 background-size:cover;
+ }
+ .menu-top h3{
+	 float:left;
+	 margin-top:32px;
+	 color: #39c9da;
+     font-family: OpenSans;
+     font-size: 48px;
+  }
+  nav{
+	 float:right;
+	 
+ }
+ .links li {
+	 float:left;
+	 font-size: 15px;
+	 padding:44px 0 0 44px ;
+	 text-align:center;
+}
+  A:link {
+	 text-decoration: none; 
+}	
+  A{
+	  color:white;
+  }
+ .menu-top h1{
+	  margin: 0 auto;
+	 width :44%;
+	 text-align:center;
+	 font-size: 33px;
+	 color: white;
+	 padding-top:266px;	 
+ }
+ 
+ /*--------------------- content --------------------*/ 
+ 
+ /*--------------------- aboutus --------------------*/ 
+ .aboutus{
+	 background-color: #fafafa;
+ }
+ .aboutus1{
+	 margin-bottom:200px;
+	 padding-bottom:30px;
+ }
+  .aboutus-img{
+	 float:left;
+	 padding-top: 40px;
+	 padding-bottom: 40px;
+	 
+  }
+ .aboutus-txt{
+	 float:right;
+	 width: 50%;
+	 text-align:left;
+ }
+ .aboutus-txt h3{
+	 font-size: 14px;
+     text-transform: uppercase;
+	 padding-bottom:0;
+ }
+ .aboutus-txt p{
+	 margin-top:20px;
+ }
+ 
+ 
+ /*--------------------- PORTFOLIO--------------------*/ 
+.portfolio{
+     background-color:#f4f4f4;
+} 
+ .personal-list li{
+	 float:left;
+	 padding:20px 15px;
+ }
+ figcaption{
+	 font-size: 14px;
+	 padding:20px 0 0 6px;
+	 
+ }
+ figcaption span{
+	 color: #aba7ab;
+     font-size: 12px;
+     line-height: 20px;
+	 text-align:right;
+ }
+ figure{
+	 display: inline-block;
+ }
+   
+
+ figure:hover::after {
+       content: attr(data-text); /* Выводим текст всплывающей подсказки*/
+       position: absolute;	
+       text-align: right;
+	   color:white;
+	   margin:-200px  0 0 150px;
+	   border:1px solid white; 
+	   border-radius: 2px;
+	   padding:4px;
+ }
+ /*--------------------- servises --------------------*/
+ .services{
+      height: 534px;
+      background-color: #fafafa;
+}
+
+
+.servises_content ul li{
+     width: 250px;
+     border: 1px solid #e2e2e2;
+     float: left;
+     margin-right: 26px;
+     padding:18px;
+     text-align: center;
+     color: color: #39c9da;
+}
+.servises ul li h1{
+    width: 152px;
+    color: #504f50;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+}
+.servises  p{
+	 width: 227px;
+     height: 74px;
+     color: #504f50;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+	 margin-top:200px;
+
+}
+.servises ul li img{
+     padding-top: 15px;
+     padding-bottom: 35px;
+}
+.read_more {
+     margin: 0 auto;
+     margin-top: 24px;
+     margin-bottom:14px ;
+     width: 129px;
+     background-color: #4b4a4b;
+     padding:10px 20px;
+     color: white;
+     text-align:center;
+ }
+ .read_more:hover {
+     background-color: #39c9da;
+     color: #fefefe;
+ }
+ .button:active {
+     background-color: grey;
+     color:  #39c9da;
+ }
+ .fa fa-caret-down:hover{
+	 background-color: #39c9da;
+ }
+ .servises_content i{
+	 overflow:hidden;
+	 color: #39c9da;
+     font-size: 34px;
+	 padding:10px 0 20px 0;
+     
+ }
+/*--------------------- forma  --------------------*/
+.contact_us{
+	background-color: #f4f4f4;
+    border: 1px solid #e8e8e8;
+     }
+
+.contact{
+	padding-top: 60px;
+	width: 1178px;
+	margin: 0 auto;
+}
+.contact_info{
+    float: left;
+	margin-right:30px;
+}
+.contact_info h3{
+width: 110px;
+color: #504f50;
+font-family: OpenSans;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+}
+.contact_info img{
+	padding-top: 15px;
+}
+.contact_info p{
+	padding-top: 32px;
+width: 559px;
+
+color: #a8a8a8;
+font-family: OpenSans;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+.adress{
+	padding-top: 15px;
+	width: 132px;
+
+font-family: OpenSans;
+font-size: 14px;
+line-height: 20px;
+
+}
+.adress h2{
+	color: #504f50;
+font-weight: 700;
+}
+.adress p{
+	color: #a8a8a8;
+font-weight: 400;
+width: 132px;
+}
+.contact_detalies{
+
+}
+input {
+	border: 1px solid #e6e6e6;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	padding-left: 15px;
+
+}
+input.name {
+	width: 270px;
+  height: 47px;
+
+}
+input.email{
+	margin-left: 10px;
+	width: 270px;
+  height: 47px;
+}
+input.Subject{
+	margin-top: 30px;
+	width: 572px;
+height: 47px;
+}
+input.Message{
+	width: 572px;
+height: 152px;
+margin-top: 30px;
+}
+
+
+
+ /*--------------------- footer  --------------------*/
+
+ .foot {
+	background-color: #39c9da;
+	text-align:center;
+	color: white;
+	font-size: 18px;
+	padding:20px 0;
+ } 
+  
+ 
